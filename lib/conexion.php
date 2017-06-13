@@ -4,8 +4,8 @@ class Conexion{
     
     /*Metodo de conexión*/
     var $dbusr="root";
-    var $dbpwd="";
-    var $dbhost="localhost";
+    var $dbpwd="123";
+    var $dbhost="http://localhost/panolbd/";
     var $dbname="panol";
     
     public function Conectar(){

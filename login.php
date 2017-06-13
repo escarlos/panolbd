@@ -12,7 +12,7 @@
 </head>
 <body>
 <div class="container">    
-        
+     
     <div id="loginbox" class="mainbox col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3"> 
         
         <div class="row">                
@@ -29,7 +29,7 @@
             <div class="panel-heading">
                 <div class="panel-title text-center">PAÑOL DUOC UC</div>
             </div>     
-            <form action="validar.php" method="post" accept-charset="utf-8">
+            <form action="<?=URL?>controlador/valida.php" method="post" accept-charset="utf-8">
 
 
             <div class="panel-body" >

@@ -41,7 +41,7 @@ Class Usuario{
         
         
         $sql="SELECT * FROM usuario"
-             ." WHERE nomusuario='$this->rut' and pwdusuario='$this->password'";
+             ." WHERE rut='$this->rut' and password='$this->password'";
         
         $resultado=$db->query($sql);
         
