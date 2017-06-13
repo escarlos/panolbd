@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8" />
 	<title>Login</title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<title>Lista de conductores</title> 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
 <link href="css/style.css" rel="stylesheet" type="text/css"/>
@@ -27,14 +27,14 @@
         
         <div class="panel panel-default" >
             <div class="panel-heading">
-                <div class="panel-title text-center">PAÑOL DUOCUC</div>
+                <div class="panel-title text-center">PAÑOL DUOC UC</div>
             </div>     
-<form action="loginController.php" method="post" accept-charset="utf-8">
+            <form action="validar.php" method="post" accept-charset="utf-8">
 
 
             <div class="panel-body" >
 
-                <form name="form" id="form" class="form-horizontal" enctype="multipart/form-data" method="POST">
+               
                    
                     <div class="input-group" >
                         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -53,10 +53,10 @@
                         </div>
                     </div>
 
-                </form>     
+                  
 
-            </div>  
-            </form>                   
+            </div>     
+                </form>
         </div>  
     </div>
 </div>
